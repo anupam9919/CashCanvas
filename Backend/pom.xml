@@ -12,7 +12,7 @@
 	<artifactId>BankingApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>BankingApp</name>
-	<description>Banking Application</description>
+	<description>CashCanvas - Full-Stack Banking Application</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -47,6 +47,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.42</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -106,7 +107,7 @@
 						<path>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
-							<version>1.18.30</version>
+							<version>1.18.42</version>
 						</path>
 					</annotationProcessorPaths>
 				</configuration>

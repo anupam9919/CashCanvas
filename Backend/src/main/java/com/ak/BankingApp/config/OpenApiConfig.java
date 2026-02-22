@@ -16,13 +16,13 @@ public class OpenApiConfig {
     public OpenAPI customOpenApi(){
         return new OpenAPI()
                 .info(new Info()
-                        .title("Banking App API")
+                        .title("CashCanvas API")
                         .version("1.0")
                         .description("This API provides banking operations like account management, transactions, and user authentication.")
                         .contact(new Contact()
-                                .name("Arun Kargatia")
-                                .email("arunkargatia47@gmail.com")
-                                .url("https://github.com/ArunKargatia")))
+                                .name("Anupam Singh")
+                                .email("")
+                                .url("")))
                 .servers(List.of(
                         new Server().url("http://localhost:8080").description("Local Development"),
                         new Server().url("https://api.bankingapp.com").description("Production Server")
